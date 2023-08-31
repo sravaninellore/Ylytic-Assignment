@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comment Search</title>
+</head>
+<body>
+    <h1>Comment Search</h1>
+    <form action="/search" method="get">
+        <label for="search_author">Author Name:</label>
+        <input type="text" id="search_author" name="search_author"><br><br>
+
+        <label for="at_from">Date From:</label>
+        <input type="date" id="at_from" name="at_from">
+        <label for="at_to">Date To:</label>
+        <input type="date" id="at_to" name="at_to"><br><br>
+
+        <label for="like_from">Like Count From:</label>
+        <input type="number" id="like_from" name="like_from">
+        <label for="like_to">Like Count To:</label>
+        <input type="number" id="like_to" name="like_to"><br><br>
+
+        <label for="reply_from">Reply Count From:</label>
+        <input type="number" id="reply_from" name="reply_from">
+        <label for="reply_to">Reply Count To:</label>
+        <input type="number" id="reply_to" name="reply_to"><br><br>
+
+        <label for="search_text">Search Text:</label>
+        <input type="text" id="search_text" name="search_text"><br><br>
+
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
